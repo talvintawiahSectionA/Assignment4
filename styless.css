@@ -1,0 +1,29 @@
+/* Custom styles for Harmony Beats Music Festival */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.card {
+  height: 250px;
+}

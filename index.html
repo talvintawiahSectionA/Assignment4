@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harmony Beats Music Festival</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styless.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Harmony Beats</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#lineup">Lineup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tickets">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      class="hero-section text-center text-light d-flex align-items-center"
+      style="background-image: url('assets/festival-1.jpg'); height: 100vh"
+    >
+      <div class="container">
+        <h1 class="display-4 text-primary">Harmony Beats Music Festival</h1>
+        <p class="lead text-secondary">
+          August 25-27, 2024 | Central Park, NYC
+        </p>
+        <a href="#tickets" class="btn btn-primary btn-lg">Get Your Tickets</a>
+      </div>
+    </header>
+
+    <!-- Lineup Section -->
+    <section id="lineup" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Festival Lineup</h2>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="assets/festival-7.jpg"
+                class="card-img-top"
+                alt="Artist 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">DJ Maestro</h5>
+                <p class="card-text">EDM</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="assets/festival-3.jpg"
+                class="card-img-top"
+                alt="Artist 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">The Rockers</h5>
+                <p class="card-text">Rock</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="assets/festival-2.jpg"
+                class="card-img-top"
+                alt="Artist 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">The Dudesons</h5>
+                <p class="card-text">Country</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="assets/festival-5.jpg"
+                class="card-img-top"
+                alt="Artist 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Travis Scott</h5>
+                <p class="card-text">Rap</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Event Schedule</h2>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Stage</th>
+                <th>Artist</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2:00 PM</td>
+                <td>Main Stage</td>
+                <td>DJ Maestro</td>
+              </tr>
+              <tr>
+                <td>4:00 PM</td>
+                <td>Rock Stage</td>
+                <td>The Dudesons</td>
+              </tr>
+              <tr>
+                <td>6:00 PM</td>
+                <td>Metro Stage</td>
+                <td>The Rockers</td>
+              </tr>
+              <tr>
+                <td>8:00 PM</td>
+                <td>Rock Stage</td>
+                <td>Travis Scott</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="tickets" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Tickets & Pricing</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">General Admission</h5>
+                <p class="card-text">$99</p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ticketModal1"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center border-2 border-secondary">
+              <div class="card-body">
+                <h5 class="card-title">Most Popular Package</h5>
+                <p class="card-text">$149</p>
+                <p class="card-text">Includes Line Skipping</p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ticketModal1"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">VIP</h5>
+                <p class="card-text">$249</p>
+                <p class="card-text">
+                  Includes Backstage Passes and Line Skipping
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ticketModal1"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ticket Modal Example -->
+    <div
+      class="modal fade"
+      id="ticketModal1"
+      tabindex="-1"
+      aria-labelledby="ticketModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ticketModalLabel">
+              General Admission Ticket
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Includes access to all stages and general areas. Free entry to the
+              after-party.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Purchase
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact & Location</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Email:</h5>
+            <p>info@harmonybeatsfestival.com</p>
+            <h5>Phone:</h5>
+            <p>(555) 123-4567</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Location:</h5>
+            <p>Central Park, New York City, NY</p>
+            <iframe
+              src="https://www.google.com/maps/embed?..."
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <div class="container">
+        <p>&copy; 2024 Harmony Beats Music Festival. All Rights Reserved.</p>
+        <p>
+          Follow us on <a href="#">Instagram</a>, <a href="#">Twitter</a>, and
+          <a href="#">Facebook</a>.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
